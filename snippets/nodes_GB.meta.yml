@@ -37,9 +37,24 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: 🇬🇧GB_1|2.8MB/s
+- cipher: aes-256-cfb
+  name: 🇬🇧GB_1|1.2MB/s
+  password: amazonskr05
   port: 443
-  server: 185.235.0.34
+  server: 18.171.235.36
+  type: ss
+- name: 🇬🇧GB_2|1.0MB/s
+  password: None
+  port: 443
+  server: 185.235.0.2
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇬🇧GB_3|3.3MB/s
+  password: x
+  port: 8891
+  server: extension.intern3t.ru
+  tls: true
+  type: http
+  username: 85efca17026d85555ffc9b651149b5b7
